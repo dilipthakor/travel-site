@@ -9,8 +9,8 @@ gulp.task('html',function(){
 	console.log("change made in html files");
 	});
 	
-gulp.task('style',function(){
-	console.log("change made in css file");
+gulp.task('styles',function(){
+	return gulp.src('./app/assets/styles/styles.css').pipe(gulp.dest('./app/temp/styles'));
 	});
 
 gulp.task('watch',function(){
@@ -19,8 +19,8 @@ gulp.task('watch',function(){
 	    gulp.start('html');
 	});
 	
-	watch('./app/assets/style/**/*.css', function(){
-		gulp.start('style');
+	  watch('./app/assets/styles/**/*.css', function(){
+		gulp.start('styles');
 		});
 	
 });
