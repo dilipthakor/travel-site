@@ -1,5 +1,22 @@
-p{color: black;
+$mainBlue: #2f5572;
+
+
+
+p{color: $mainBlue;
+  
   }
   body{
     padding: 20px;
+    columns:300px 2;
   }
+  
+ h{
+   color: black;
+ }
+ 
+ .box {
+   a{
+     display: block;
+     padding: 10px;
+   }
+ }
