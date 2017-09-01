@@ -1,17 +1,9 @@
-p{color: #2f5572;
-  
-  }
-  body{
-    padding: 20px;
-    -webkit-columns:300px 2;
-            columns:300px 2;
-  }
-  
- h{
-   color: black;
- }
- 
- .box a{
-     display: block;
-     padding: 10px;
-   }
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* dark gray color*/
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}

@@ -1,22 +1,9 @@
-$mainBlue: #2f5572;
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* dark gray color*/
+}
 
-
-
-p{color: $mainBlue;
-  
-  }
-  body{
-    padding: 20px;
-    columns:300px 2;
-  }
-  
- h{
-   color: black;
- }
- 
- .box {
-   a{
-     display: block;
-     padding: 10px;
-   }
- }
+img{
+  max-width: 100%;
+  height: auto;
+}
