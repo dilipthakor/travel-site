@@ -478,10 +478,17 @@ img{
 .large-hero__title{
   font-weight: 300; /* rid out of bold */
   color: #2f5572;
-  font-size: 4.8rem;/* big size font */
   margin: 0;
   
 }
+
+@media(min-width: 530px){
+
+.large-hero__title{
+	  font-size: 4.8rem
+  
+}
+  }
 
 .large-hero__subtitle{
   font-weight: 300; 
