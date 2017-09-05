@@ -24,3 +24,8 @@ gulp.task('cssInject', ['styles'],function(){
 	return gulp.src('./app/temp/styles/styles.css')
 	.pipe(browserSync.stream());
 	});
+	
+gulp.task('html',function(){
+	return gulp.src('./app/index.html')
+	.pipe(browserSync.stream());
+	})
